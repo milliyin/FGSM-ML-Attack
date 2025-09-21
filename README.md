@@ -64,7 +64,6 @@ The backend offline component runs a FastAPI server locally on your PC for devel
    uvicorn main:app --reload
    ```
 4. The server will be available at `http://localhost:8000`
-5. API documentation will be accessible at `http://localhost:8000/docs`
 
 ### Docker Online (AWS Lambda Deployment)
 
@@ -120,6 +119,14 @@ https://main.d3sfs35rsj3o4s.amplifyapp.com/
 2. **Configure Parameters**: Set the epsilon value and other attack parameters
 3. **Run Attack**: Execute the FGSM algorithm to generate adversarial examples
 4. **View Results**: Compare the original and adversarial images, along with model predictions
+
+### Key Observations
+
+When experimenting with the FGSM attack, pay attention to:
+
+- **How predictions change**: Monitor how the model's confidence and predicted classes shift between original and adversarial images
+- **Epsilon impact**: Observe how increasing epsilon values make attacks stronger but may also make perturbations more visible
+- **Attack effectiveness**: Notice how small, imperceptible changes can dramatically alter model predictions
 
 ## API Endpoints
 
