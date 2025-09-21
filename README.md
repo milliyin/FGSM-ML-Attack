@@ -93,6 +93,10 @@ When setting up your Lambda function:
 - **Runtime**: Use container image deployment
 - Point to your ECR repository image
 
+#### Online Deployment
+The backend is already deployed and accessible at:
+https://c7erwbv7hsgrdy4yd6q7pblmh40thlde.lambda-url.eu-north-1.on.aws
+
 ### FGSM Frontend
 
 The frontend provides a user-friendly interface for interacting with the FGSM attack functionality.
