@@ -20,7 +20,7 @@ The frontend is hosted at: https://main.d3sfs35rsj3o4s.amplifyapp.com/
 
 ## Preview
 
-![FGSM Attack Demo](preview.png)
+![FGSM Attack Demo](screenshots/preview.png)
 
 *Screenshot showing the FGSM attack interface with original and adversarial images*
 
