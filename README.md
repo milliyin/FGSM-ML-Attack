@@ -43,10 +43,6 @@ This project demonstrates multiple deployment strategies for robust server-side 
 ![Amplify Deployment](screenshots/amplify-deployment.png)
 *Frontend successfully deployed and running on AWS Amplify*
 
-### End-to-End System Operation
-![Complete System Demo](screenshots/system-demo.png)
-*Complete system showing local backend, cloud deployment, and frontend integration*
-
 ## Setup Instructions
 
 ### Backend Offline (Local FastAPI Server)
